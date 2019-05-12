@@ -46,6 +46,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:onClick="addSixForTeamA"
+                android:text="Touchdown" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:onClick="addThreeForTeamA"
                 android:text="Field Goal" />
 
@@ -102,6 +109,13 @@
                 android:textColor="#000000"
                 android:textSize="56sp"
                 app:fontFamily="sans-serif-light" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="addSixForTeamB"
+                android:text="Touchdown" />
 
             <Button
                 android:layout_width="match_parent"

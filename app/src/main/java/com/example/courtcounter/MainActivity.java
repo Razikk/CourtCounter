@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Team A onClicks
 
+    public void addSixForTeamA(View view) {
+        scoreTeamA += 6;
+        displayForTeamA(scoreTeamA);
+    }
+
     public void addThreeForTeamA(View view) {
         scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
@@ -35,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Team B onClicks
+
+    public void addSixForTeamB(View view) {
+        scoreTeamB += 6;
+        displayForTeamB(scoreTeamB);
+    }
 
     public void addThreeForTeamB(View view) {
         scoreTeamB += 3;
